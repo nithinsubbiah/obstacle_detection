@@ -8,6 +8,8 @@
 
     <!--Launch rviz with config file-->
     <node type="rviz" name="rviz" pkg="rviz" args="-d $(find obstacle_detection)/rviz/obstacle_detection.rviz" />
-    
+
+    <!--Launch the obstacle detection node-->
+    <node pkg="obstacle_detection" name="obstacle_detection_node" type="obstacle_detection_node" output="screen" />
 
 </launch>
