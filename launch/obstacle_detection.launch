@@ -1,0 +1,13 @@
+<launch>
+    
+    <!--Launch the RealSense ROS package-->
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+        <arg name="filters" value="pointcloud" />
+        <arg name="align_depth" value="True" />
+    </include>
+
+    <!--Launch rviz with config file-->
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find obstacle_detection)/rviz/obstacle_detection.rviz" />
+    
+
+</launch>
