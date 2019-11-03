@@ -75,7 +75,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.00999999978
       Style: Flat Squares
-      Topic: /camera/depth/color/points
+      Topic: /obstacle_detection/point_cloud
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -120,10 +120,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.785398006
+      Pitch: -1.07020223
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.785398006
+      Yaw: 5.34858179
     Saved: ~
 Window Geometry:
   Displays:
